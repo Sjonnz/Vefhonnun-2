@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Andrés">
+    <title>Vef Andrés</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/harmon.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <label for="toggle" class="menulabel"></label>
+    <section class="topmenu">
+      <a href="index.html">Forsíða</a>
+      <a href="umokkur.html">Um Okkur</a>
+      <a href="midar.html">Miðar</a>
+    </section>
+  </nav>
+    <section class="landing container">
+        <div>
+            <img src="images/jajjajajaja.png" width="250" class="logo-2">
+          </div>
+          <div class="slide-in-left">
+            <img class="phone" src="images/logogogoog.png" width="200" length="200">
+          </div>
+  </div>
+</div>
+      <div>
+        <div class="slide-in-out">
+          <h4>Buy Tickets<br>For the whole family</h4>
+        </div>
+      </div>
+    </section>
+  <div class="blueBg">
+    <section class="col-3 container">
+      <div id="animation-block" class="animation-block-class">
+        <div>
+          <h1>Miðar</h1>
+        </div>
+        <div>
+          <h1>Keyptu sem fyrst!</h1>
+        </div>
+      </div>
+      <div class="value">
+        <table>
+          <tr>
+            <th><h4>Hvar</h4></th>
+            <th><h4>Hvenær</h4></th>
+            <th><h4>Panta</h4></th>
+          </tr>
+          <tr>
+            <td><h5>Egilshöll, Ísland</h5>
+            </td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">26. May</option>
+                    <option value="val2">27. May</option>
+                    <option value="val3">28. May</option>
+                </select></td>
+            <td>
+                  <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <label for="name"><h4>Nafn:</h4></label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email"><h4>Email:</h4></label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone"><h4>Síma Númer:</h4></label><br>
+                      <input type="phone" id="phone" name="phone"><br>
+                      <label for="date"><h4>Afmæli/Fæðingadagur:</h4></label>
+                      <input type="date" id="date" name="date">
+                      <label for="message"><h4>Skilaboð:</h4></label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td><h5>Wembley Stadium, England</h5></td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">2. June</option>
+                    <option value="val2">3. June</option>
+                    <option value="val3">4. June</option>
+                </select></td>
+            <td>
+              <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <h4>Kyn:</h4>
+                      <label for="male">KK</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="female">KVK</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="other">Annað kyn</label>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="name">Nafn:</label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email">Email:</label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Síma Númer:</label><br>
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="message">Skilaboð:</label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            </td>
+          </tr> 
+          <tr>
+            <td><h5>Olympiastadion, Þýskaland</h5></td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">6. June</option>
+                    <option value="val2">7. June</option>
+                    <option value="val3">8. June</option>
+                </select></td>
+            <td>
+              <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <h4>Kyn:</h4>
+                      <label for="male">KK</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="female">KVK</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="other">Annað kyn</label>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="name">Nafn:</label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email">Email:</label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Síma Númer:</label><br>
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="message">Skilaboð:</label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            
+            </td>
+          </tr>
+          <tr>
+            <td><h5>Ippodroma SNA La Maura</h5></td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">11. June</option>
+                    <option value="val2">12. June</option>
+                    <option value="val3">13. June</option>
+                </select></td>
+            <td>
+              <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <h4>Kyn:</h4>
+                      <label for="male">KK</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="female">KVK</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="other">Annað kyn</label>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="name">Nafn:</label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email">Email:</label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Síma Númer:</label><br>
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="message">Skilaboð:</label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td><h5>Helsinki Olympic Stadium, Finnland</h5></td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">16. June</option>
+                    <option value="val2">17. June</option>
+                    <option value="val3">18. June</option>
+                </select></td>
+            <td>
+              <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <h4>Kyn:</h4>
+                      <label for="male">KK</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="female">KVK</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="other">Annað kyn</label>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="name">Nafn:</label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email">Email:</label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Síma Númer:</label><br>
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="message">Skilaboð:</label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td><h5>Tons of Rock, Ekeberg, Noregur</h5></td>
+            <td><label for="myList"></label>
+                <select id="myList">
+                    <option value="val1">21. June</option>
+                    <option value="val2">22. June</option>
+                    <option value="val3">23. June</option>
+                </select></td>
+            <td>
+              <button onclick="document.getElementById('myPopup').style.display='block'">Panta</button>
+                  <div id="myPopup" class="modal">
+                  <div class="modal-content">
+                    <form>
+                      <h4>Kyn:</h4>
+                      <label for="male">KK</label>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="female">KVK</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="other">Annað kyn</label>
+                      <input type="radio" id="other" name="gender" value="other">
+                      <label for="name">Nafn:</label><br>
+                      <input type="text" id="name" name="name"><br>
+                      <label for="email">Email:</label><br>
+                      <input type="email" id="email" name="email"><br>
+                      <label for="phone">Síma Númer:</label><br>
+                      <input type="number" id="phone" name="phone">
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <label for="message">Skilaboð:</label><br>
+                      <textarea id="message" name="message"></textarea><br>
+                      <button type="submit">Skila</button>
+                    </form>
+                  <button onclick="document.getElementById('myPopup').style.display='none'">Close</button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </div>
+    <section class="container col-2">
+      <article>
+        <figure>
+          <img src="images/Liveeee.jpg">
+         </figure>
+         </article>
+      <section>
+        <img src="images/jæja.png">
+          <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+      
+              for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.maxHeight) {
+                          panel.style.maxHeight = null;
+                      } else {
+                          panel.style.maxHeight = panel.scrollHeight + "px";
+                      }
+                  });
+              }
+          </script>
+        </figure>
+      </section>
+    </section>
+    <section class="container">
+      <hr>
+    </section>
+  </main>
+  <footer class="container col-3">
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <dl>              
+      <dt>Nafn</dt>
+        <dd>Andrés Þór Jóhannsson</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>andrestjohannsson@gmail.com</dd>
+      <dt>Vefhönnun</dt>
+        <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+        <style>
+          body {
+            background-color: white;
+            color: black;
+          }
+          
+          .dark-mode {
+            background-color: black;
+            color: white;
+          }
+          </style>
+          
+          <script>
+          function myFunction() {
+             var element = document.body;
+             element.classList.toggle("dark-mode");
+          }
+          </script>
+    </dl>
+  </footer>
+  <button onclick="document.getElementById('newPopup').style.display='block'"><img src="images/cht.png" width="25" height="30" class="logo-2"></button>
+<div id="newPopup" class="new-popup">
+  <div class="new-popup-content">
+    <form>
+      <label for="name"><h4>Nafn:</h4></label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email"><h4>Email:</h4></label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message"><h4>Skilaboð:</h4></label><br>
+      <textarea id="message" name="message"></textarea><br>
+      <button type="submit">Skila</button>
+    </form>
+  </div>
+</div>
+    <p class="center">&copy 2024 AÞJ</p>
+    <button onclick="myFunction()">Toggle dark mode</button>
+</body>
+</html>
